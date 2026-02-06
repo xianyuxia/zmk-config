@@ -7,8 +7,20 @@
 
         default_layer {
             bindings = <
-                &kp A   &kp B
-                &kp C   &kp D
+                /* ROW1 */
+                &kp Q     &kp E     &kp R     &kp U     &kp O
+                /* ROW2 */
+                &kp W     &kp S     &kp G     &kp H     &kp L
+                /* ROW3 */
+                &mo 1     &kp D     &kp T     &kp Y     &kp I
+                /* ROW4 */
+                &kp A     &kp P     &kp R     &kp ENTER &kp BSPC
+                /* ROW5 */
+                &kp LALT  &kp X     &kp V     &kp B     &kp DOLLAR
+                /* ROW6 */
+                &kp SPACE &kp Z     &kp C     &kp N     &kp M
+                /* ROW7 */
+                &kp LGUI &kp LSHFT &kp F    &kp J    &kp k
             >;
         };
     };
