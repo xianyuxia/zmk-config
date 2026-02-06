@@ -1,0 +1,6 @@
+if SHIELD_BBQ10
+
+config ZMK_KEYBOARD_NAME
+    default "BlackBerry Q10"
+
+endif

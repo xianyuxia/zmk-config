@@ -1,0 +1,5 @@
+config SHIELD_BBQ10
+    bool "BlackBerry Q10 keyboard"
+    depends on BOARD_NICE_NANO_V2
+    help
+      Enable support for the BlackBerry Q10 keyboard matrix

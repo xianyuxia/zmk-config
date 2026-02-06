@@ -1,0 +1,24 @@
+/ {
+    chosen {
+        zmk,kscan = &kscan0;
+    };
+
+    kscan0: kscan {
+        compatible = "zmk,kscan-gpio-matrix";
+
+        /* Rows */
+        row-gpios = <
+            &gpio0 17 GPIO_ACTIVE_LOW   /* R1 -> P0.17 */
+            &gpio0 20 GPIO_ACTIVE_LOW   /* R2 -> P0.20 */
+        >;
+
+        /* Columns */
+        col-gpios = <
+            &gpio0 9  GPIO_ACTIVE_LOW   /* C1 -> P0.09 */
+            &gpio0 10 GPIO_ACTIVE_LOW   /* C2 -> P0.10 */
+        >;
+
+        debounce-press-ms = <5>;
+        debounce-release-ms = <5>;
+    };
+};
