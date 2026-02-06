@@ -20,7 +20,7 @@
                 /* ROW6 */
                 &kp SPACE &kp Z     &kp C     &kp N     &kp M
                 /* ROW7 */
-                &kp LGUI &kp LSHFT &kp F    &kp J    &kp k
+                &kp LGUI  &kp LSHFT &kp F     &kp J     &kp k
             >;
         };
     };
