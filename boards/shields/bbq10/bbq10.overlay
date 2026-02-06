@@ -30,7 +30,10 @@
             &gpio1 15 GPIO_ACTIVE_LOW   /* COL5  D18 P1.15 */
         >;
 
-        debounce-press-ms = <5>;
-        debounce-release-ms = <5>;
+        row-gpios-flags = <GPIO_PULL_UP>;
+        col-gpios-flags = <GPIO_PULL_UP>;
+
+        debounce-press-ms = <10>;
+        debounce-release-ms = <10>;
     };
 };
